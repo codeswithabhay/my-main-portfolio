@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hey! abhi</title>
+</head>
+
+<body>
+  <div id="header">
+    <div class="contianer">
+      <nav>
+        <h1 class="logo">
+          <i class="fa-solid fa-leaf"></i>Abhay<span>.portfolio</span>
+        </h1>
+
+        <!-- NAVBAR -->
+        <ul id="sidemenu">
+
+          <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+
+          <li style="--i:1">
+            <a href="#header">H O M E</a>
+          </li>
+          <li style="--i:2">
+            <a href="#about">A B O U T</a>
+          </li>
+          <!-- <li>
+                        <a href="#portfolio"><i class="fa-solid fa-thumbs-up"></i>PORTFOLIO</a></li>
+                    <li>
+                        <a href="#services"><i class="fa-sharp fa-solid fa-square-ring"></i>SERVICES</a></li> -->
+          <li style="--i:3">
+            <a href="#contact">C O N T A C T</a>
+          </li>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        
+      </nav>
+    </div>
+
+
+    <!-- HOME SECTION -->
+    <div class="home-container">
+      <div class="header-text">
+        <h1>
+          Hii There,<br />
+          I'm <span> Abhay. </span>
+        </h1>
+        <p>I'm a <span class="typing"></span></p>
+        <div class="icons">
+          <a href="#"><i class="fa-brands fa-github"></i></a>
+          <a href="https://www.youtube.com/channel/UCmbz1xiuHjZWSkiCHtx8ZIQ"><i class="fa-brands fa-youtube"></i></a>
+          <a href="https://www.instagram.com/abhxy.vl/"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://twitter.com/hey_abhi02"><i class="fa-brands fa-twitter"></i></a>
+          <a href="facebook"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+      </div>
+      <div class="animation-container">
+        <div class="sub-container">
+          <!-- <img class="rocket" src="img/home-animation-rocket.png" alt=""> -->
+          <div class="shadow">.</div>
+          <img class="astronaut" src="img/astro-anima.png" alt="" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--------A B O U T-------->
+
+  <div id="about">
+    <h2 class="heading">A B O U T <span>M E</span></h2>
+    <p class="sub-heading">
+      A Frontend focused Web Developer building the Frontend of Websites and
+      Web Applications that leads to the success of the overall product
+    </p>
+    <div class="row">
+      <div class="about-col1">
+        <h3 class="about__content-title">Get to know me!</h3>
+        <div class="about__content-details">
+          <p class="about__content-details-para">
+            <br> I'm a <strong>Frontend Web Developer</strong> building the
+            Front-end of Websites and Web Applications that leads to the
+            success of the overall product. Check out some of my work in the
+            <strong>Projects</strong> section. <br>
+          </p>
+          <p class="about__content-details-para">
+            <br>I also like sharing content related to the stuff that I have
+            learned over the years in <strong>Web Development</strong> so it
+            can help other people of the Dev Community. Feel free to Connect
+            or Follow me on my
+          </p>
+          <button class="btn">R E S U M E <i class="fa-solid fa-arrow-down"></i></button>
+        </div>
+      </div>
+      <div class="about-col2">
+
+        <div class="about__content-skills">
+          <h3 class="about__content-title">My Skills <>
+          </h3>
+          <div class="skills">
+            <div class="skills__skill">HTML</div>
+            <div class="skills__skill">CSS</div>
+            <div class="skills__skill">JavaScript</div>
+            <div class="skills__skill">React</div>
+            <div class="skills__skill">SASS</div>
+            <div class="skills__skill">GIT</div>
+            <div class="skills__skill">Github</div>
+            <div class="skills__skill">Responsive Design</div>
+            <div class="skills__skill">SEO</div>
+            <div class="skills__skill">Terminal</div>
+            <div class="skills__skill">Express Basics</div>
+            <div class="skills__skill">SQL Basics</div>
+          </div>
+        </div>
+        <div class="cube">
+          <div class="top"></div>
+          <div>
+            <span style="--i:0;"></span>
+            <span style="--i:1;"></span>
+            <span style="--i:2;"></span>
+            <span style="--i:3;"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!------------contact------------>
+  <div id="contact">
+    <h2 class="heading">C O N T A C T <span>M E</span></h2>
+    <p class="sub-heading">
+      Feel free to Contact me by submitting the form below and I will get back
+      to you as soon as possible
+    </p>
+    <div class="container">
+      <div class="row">
+        <div class="contact-leftcorner">
+          <p>
+            <i class="fa-solid fa-paper-plane"></i>abhayjhariya999@gmai.com
+          </p>
+          <p><i class="fa-solid fa-phone"></i>+91 7389157441</p>
+          <a href="img/Abhay resume 2023(1).jpg" download class="btn">Download CV</a>
+        </div>
+        <div class="contact-rightcorner">
+          <form name="submit-to-google-sheet">
+            <input class="submit-box" type="text" name="Name" placeholder="Your Name" required />
+            <input class="submit-box" type="" name="E-mail" placeholder="Your E-mail" required />
+            <textarea class="submit-box" name="Message" rows="6" placeholder="Write Your Message Here" required></textarea>
+            <button type="submit" class="btn">Submit</button>
+          </form>
+          <span id="msg"></span>
+        </div>
+      </div>
+
+
+      <!-----------copyright-------->
+      <div id="copyright">
+        <!-- <h2 class="copyright-heading">ABHAY KUMAR</h2>
+    <p class="para">A Frontend focused Web Developer building the <br>Frontend of Websites and Web Applications that leads to the success of the overall product</p> -->
+        <div class="icon">
+          <!-- <h3>SOCIAL</h3> -->
+          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-github"></i></a>
+        </div>
+        <div class="contian">
+          <p>
+            Copyright © 2023 All rights reserved | This template is made with
+            <i class="fa-solid fa-heart"></i> by
+          </p>
+          <a href="#">| A B H A Y |</a>
+        </div>
+      </div>
+
+
+
+      <!-- ____javascript___ -->
+      <script src="script.js"></script>
+</body>
+
+</html>
