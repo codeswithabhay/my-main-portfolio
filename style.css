@@ -933,7 +933,20 @@ ul .fa-solid {
   .btn {
     font-size: 12px;
   }
-
+  /* ----COPYRIGHT - CONTAINER ------ */
+  #copyright{
+    padding-top: 10px;
+  }
+  #copyright .contian{
+    text-align: center;
+  }
+  #copyright .contian p{
+    font-size: 10px;
+    padding-bottom: 20px;
+  }
+  .icon a{
+    font-size: 15px;
+  }
 }
 
 @media only screen and (max-width: 440px) {
