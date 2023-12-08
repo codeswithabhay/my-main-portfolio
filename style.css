@@ -728,10 +728,24 @@ ul .fa-solid {
 
   }
 
+  
+  .contianer {
+    max-width: 600px;
+    width: 100% auto;
+    height: 70px;
+    /* margin-right: 3px; */
+    /* border: #000 solid 3px; */
+     display: flex;
+    flex-direction: row;
+     position: fixed;  
+
+
+  }
+
   .contianer .logo {
     display: flex;
     flex-direction: row;
-    margin: 0;
+    margin-left: 20px;
     padding: 0 15px;
     font-size: 15px;
     position: fixed;
@@ -741,38 +755,32 @@ ul .fa-solid {
 
   nav .fa-leaf {
     padding: 10PX;
+    
+    
 
   }
-  nav .fa-bars{
-    padding: 10px;
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    align-items: flex-end;
+  nav .fa-bars {
+    display: block;
+    font-size: 25px;
   }
-  /* nav ul{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right:5px ; 
+  
+  ul .fa-solid {  
+    display: block;
   }
-  nav li{ */
-    /* position: absolute;
-    margin-right:50px ; */
-  /* } */
 
+
+ 
   nav ul {
     background-color: rgba(245, 245, 245, 0.884);
     position: fixed;
     top: 0%;
-    right: -135px;
-    width: 135px;
+    left: -105px;
+    width: 105px;
     height: 100vh;
     padding-top: 30px;
     /* margin-left: 60%; */
     z-index: 2;
-    transition: right 0.5s;
+    transition: left 0.5s;
   }
 
   nav ul li {
@@ -791,6 +799,7 @@ ul .fa-solid {
   a span {
     margin: 5px;
   }
+
 
 
 
