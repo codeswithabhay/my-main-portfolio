@@ -935,6 +935,7 @@ ul .fa-solid {
   }
   /* ----COPYRIGHT - CONTAINER ------ */
   #copyright{
+    height: auto;
     padding-top: 10px;
   }
   #copyright .contian{
@@ -946,6 +947,9 @@ ul .fa-solid {
   }
   .icon a{
     font-size: 15px;
+  }
+  .contian a{
+    font-size: 10px;
   }
 }
 
