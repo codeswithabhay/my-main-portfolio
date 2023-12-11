@@ -2,11 +2,11 @@
 var sidemen = document.getElementById("sidemenu");
 
 function openmenu(){
-    sidemen.style.right= "0";
+    sidemen.style.left= "0";
  }
 function closemenu(){
-    sidemen.style.right="-135px";
-    sidemen.style.right="-135px";
+    sidemen.style.left="-135px";
+    sidemen.style.left="-135px";
  }
 
 // --- T Y P I N G   A N I M A T I O N ---
